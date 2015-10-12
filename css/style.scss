@@ -1,0 +1,24 @@
+$background_color: rgb(228, 228, 228);
+$gold: #d49c16;
+$gray: #606060;
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: $gray;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+}
+
+html {
+	border-top: solid $background_color 40px;
+}
