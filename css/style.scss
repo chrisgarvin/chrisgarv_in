@@ -43,13 +43,13 @@ body, html {
 	margin: 0 auto;
 }
 
+h1 {
+	font-size: 3vw;
+	font-weight: bold;
+}
+
 .letter:hover {
 	cursor: pointer;
 	color: red;
 	font-size: 3.15vw;
-}
-
-h1 {
-	font-size: 3vw;
-	font-weight: bold;
 }
