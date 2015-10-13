@@ -1,5 +1,3 @@
-$background_color: rgb(228, 228, 228);
-$gold: #d49c16;
 $gray: #606060;
 
 * {
@@ -9,6 +7,7 @@ $gray: #606060;
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 	color: $gray;
+	letter-spacing: .75vw;
 }
 
 *, *:before, *:after {
@@ -38,18 +37,74 @@ body, html {
 }
 
 .content {
-	width: 50%;
+	width: 100%;
 	text-align: center;
 	margin: 0 auto;
 }
 
 h1 {
-	font-size: 3vw;
+	font-size: 5.5vw;
 	font-weight: bold;
 }
 
 .letter:hover {
 	cursor: pointer;
 	color: red;
-	font-size: 3.15vw;
+	font-size: 6vw;
+}
+
+.contactHidden {
+	display: none;
+	position: relative;
+	color: red;
+	letter-spacing: .75vw;
+}
+
+.aboutHidden {
+	display: none;
+	position: relative;
+	color: red;
+	letter-spacing: .75vw;
+}
+
+.twitterHidden {
+	display: none;
+	position: relative;
+	color: red;
+	letter-spacing: .75vw;
+}
+
+.instagramHidden {
+	display: none;
+	position: relative;
+	color: red;
+	letter-spacing: .75vw;
+}
+
+.verifyHidden {
+	display: none;
+	position: relative;
+	color: red;
+	letter-spacing: .75vw;
+}
+
+.linkedinHidden {
+	display: none;
+	position: relative;
+	color: red;
+	letter-spacing: .75vw;
+}
+
+.pikwonHidden {
+	display: none;
+	position: relative;
+	color: red;
+	letter-spacing: .75vw;
+}
+
+.githubHidden {
+	display: none;
+	position: relative;
+	color: red;
+	letter-spacing: .75vw;
 }
