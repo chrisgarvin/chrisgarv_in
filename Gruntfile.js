@@ -40,6 +40,12 @@ module.exports = function(grunt) {
           livereload: true,
         },
       },
+      data: {
+        files: 'data/*.json',
+        options: {
+          livereload: true,
+        },
+      },
       scripts: {
         files: ['js/*.js', 'js/build.*.js'],
         tasks: ['uglify']

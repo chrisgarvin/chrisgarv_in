@@ -31,7 +31,13 @@ $(document).ready(function(){
 
     function gotoUrl(name,url){
       return function(){
+        if(name == 'contact'){
+        window.location.href = url;
+      }else if(name =='about'){
+        $('.aboutContent').slideToggle();
+      }else{
         window.open(url);
+      }
       }
     }
 
