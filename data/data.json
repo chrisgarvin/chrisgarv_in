@@ -3,6 +3,7 @@
 		"links":
 			[
 				{"name":"contact", "url":"mailto:Chris@Garv.in"},
+				{"name":"charma", "url":"http://charma.herokuapp.com/"},
 				{"name":"twitter", "url":"https://twitter.com/chris_garvin"},
 				{"name":"instagram", "url":"https://instagram.com/chrisgarvin/"},
 				{"name":"tictac", "url":"http://www.chrisgarv.in/tic-tac-toe"},

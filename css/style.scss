@@ -4,7 +4,7 @@ $gray: #606060;
   margin: 0;
   list-style-type: none;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman';
   color: $gray;
   letter-spacing: 0.75vw;
 }
@@ -51,6 +51,12 @@ h1 {
   color: red;
 }
 .contactHidden {
+  display: none;
+  position: relative;
+  color: red;
+  letter-spacing: 0.75vw;
+}
+.charmaHidden {
   display: none;
   position: relative;
   color: red;
